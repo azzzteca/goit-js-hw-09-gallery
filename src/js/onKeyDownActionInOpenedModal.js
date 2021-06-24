@@ -4,6 +4,7 @@ import {
     photosInModalEl,
 } from '../index';
 
+import onModalClose from './onmodalclose.js';
 
 export default function onKeyDownActionInOpenedModal (evt) {
     if (evt.code === "Escape") {
